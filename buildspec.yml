@@ -6,7 +6,7 @@ phases:
       java: corretto21
   build:
     commands:
-      - echo Building, Testing and packaging app ...
+      - echo Building, Testing and packaging app ..
       - mvn package -DskipTests
   post_build:
     commands:
